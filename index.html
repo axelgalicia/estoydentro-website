@@ -15,14 +15,7 @@
 <body>
 
       <div id="fb-root"></div>
-      <script>
-        
-        const currentURL = location.origin;
-        const correctPage = 'https://www.estoydentro.com';
-        if (currentURL !== correctPage) {
-          location.replace(correctPage);
-        }
-        
+      <script>  
         window.fbAsyncInit = function() {
           FB.init({
             xfbml            : true,
